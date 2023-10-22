@@ -9,23 +9,23 @@ const LandingPage = () => {
   const featuredProducts = [
     {
       id: "1",
-      name: "Product 1",
+      name: "Paris",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. aaaaaaaaaaaaaaaaaaaaaaa",
+        "Embroidered bullion crest with the finest materials",
       image: "/1.jpg",
     },
     {
       id: "2",
-      name: "Product 2",
+      name: "Carleton",
       description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "A badge created for Carelton university with the utmost precision",
       image: "/2.jpg",
     },
     {
       id: "3",
-      name: "Product 3",
+      name: "Corrections",
       description:
-        "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Machined Badge for the Ontario Corrections Office",
       image: "/3.jpg",
     },
   ];
