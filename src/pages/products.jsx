@@ -1,12 +1,19 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import Header from "./components/_Header";
 import { getAllProducts } from "./api/products";
 
 
-const products = getAllProducts()
-
 const AllProductsPage = () => {
+  const router = useRouter();
+  const { collection } = router.query;
+
+  // Filter products based on the collection
+ const products = collection ? getAllProducts().filter(
+    (product) => product.collection === collection
+  ) : getAllProducts();
+
   return (
     <>  
       <Header />

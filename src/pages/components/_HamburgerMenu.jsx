@@ -8,6 +8,8 @@ const HamburgerMenu = () => {
     setIsOpen(!isOpen);
   };
 
+
+
   return (
     <div className="relative">
       <button
@@ -29,8 +31,10 @@ const HamburgerMenu = () => {
           />
         </svg>
       </button>
+
+
       {isOpen && (
-        <div className="absolute top-16 right-0 w-48 bg-white p-4 shadow-md rounded-md">
+        <div className="absolute top-16 right-0 w-48 bg-white p-4 shadow-md rounded-md text-lg">
           <ul>
             <li>
               <Link href="/" className="text-gray-800 hover:text-gray-600">
@@ -50,6 +54,62 @@ const HamburgerMenu = () => {
                 Contact
               </Link>
             </li>
+
+            {/* Machined Badges*/}
+              <li>
+              <Link
+                href="/products?collection=machinedBadges" 
+                as= "products/machinedBadges"
+                className="text-gray-800 hover:text-gray-600"
+              >
+                Machined Badges
+              </Link>
+            </li>
+
+            {/* Bullion Crests*/}
+            <li>
+              <Link
+                href="/products?collection=bullionCrests" 
+                as= "products/bullionCrests"
+                className="text-gray-800 hover:text-gray-600"
+              >
+                Bullion Crests
+              </Link>
+            </li>
+
+             {/* Braiding*/}
+             <li>
+              <Link
+                href="/products?collection=braiding" 
+                as= "products/braiding"
+                className="text-gray-800 hover:text-gray-600"
+              >
+                Braiding
+              </Link>
+            </li>
+
+               {/* Arras */}
+               <li>
+              <Link
+                href="/products?collection=arras" 
+                as= "products/arras"
+                className="text-gray-800 hover:text-gray-600"
+              >
+                Arras
+              </Link>
+            </li>
+
+             {/* Aiguillette */}
+             <li>
+              <Link
+                href="/products?collection=aiguillette" 
+                as= "products/aiguillette"
+                className="text-gray-800 hover:text-gray-600"
+              >
+                Aiguillette
+              </Link>
+            </li>
+
             <li>
               <Link
                 href="/products"
@@ -58,6 +118,9 @@ const HamburgerMenu = () => {
                 All products
               </Link>
             </li>
+
+        
+
           </ul>
         </div>
       )}

@@ -1,3 +1,11 @@
+{/* possible collections
+machinedBadges
+bullionCrests
+braiding
+arras
+aiguillette
+
+*/}
 const products = [
     {
       id: "1",
@@ -5,6 +13,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 19.99,
       image: "/1.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "2",
@@ -12,6 +21,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 29.99,
       image: "/2.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "3",
@@ -19,6 +29,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/3.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "4",
@@ -26,6 +37,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/4.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "5",
@@ -33,6 +45,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/5.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "6",
@@ -40,6 +53,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/6.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "7",
@@ -47,6 +61,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/7.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "8",
@@ -54,6 +69,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/8.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "9",
@@ -61,6 +77,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/9.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "10",
@@ -68,6 +85,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/10.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "11",
@@ -75,6 +93,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/11.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "12",
@@ -82,6 +101,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/12.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "13",
@@ -89,6 +109,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/13.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "14",
@@ -96,6 +117,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/14.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "15",
@@ -103,6 +125,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/15.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "16",
@@ -110,6 +133,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/16.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "17",
@@ -117,6 +141,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/17.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "18",
@@ -124,6 +149,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/18.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "19",
@@ -131,6 +157,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/19.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "20",
@@ -138,6 +165,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/20.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "21",
@@ -145,6 +173,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/21.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "22",
@@ -152,6 +181,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/22.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "23",
@@ -159,6 +189,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/23.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "24",
@@ -166,6 +197,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/24.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "25",
@@ -173,6 +205,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/25.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "26",
@@ -180,6 +213,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/26.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "27",
@@ -187,6 +221,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/27.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "28",
@@ -194,6 +229,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/28.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "29",
@@ -201,10 +237,12 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/29.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "30",
-      name: "AG",
+      name: "Ag",
+      collection: "machinedBadges",
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/30.jpg",
@@ -212,6 +250,7 @@ const products = [
     {
       id: "31",
       name: "WAG",
+      collection: "bullionCrests",
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/31.jpg",
@@ -222,6 +261,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/32.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "33",
@@ -229,6 +269,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/33.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "34",
@@ -236,6 +277,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/34.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "35",
@@ -243,6 +285,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/35.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "36",
@@ -250,6 +293,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/36.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "37",
@@ -257,6 +301,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/37.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "38",
@@ -264,6 +309,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/38.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "39",
@@ -271,6 +317,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/39.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "40",
@@ -278,6 +325,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/40.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "41",
@@ -285,6 +333,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/41.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "42",
@@ -292,6 +341,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/42.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "43",
@@ -299,6 +349,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/43.jpg",
+      collection: "bullionCrests",
     },
     {
       id: "44",
@@ -306,6 +357,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/44.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "45",
@@ -313,6 +365,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/45.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "46",
@@ -320,6 +373,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/46.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "47",
@@ -327,6 +381,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/47.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "48",
@@ -334,6 +389,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/48.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "49",
@@ -341,6 +397,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/49.jpg",
+      collection: "machinedBadges",
     },
     {
       id: "50",
@@ -348,6 +405,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/50.jpg",
+      collection: "arras",
     },
     {
       id: "51",
@@ -355,6 +413,7 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/51.jpg",
+      collection: "arras",
     },
     {
       id: "52",
@@ -362,7 +421,25 @@ const products = [
       description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
       price: 39.99,
       image: "/52.jpg",
+      collection: "bullionCrests",
     },
+    {
+      id: "53",
+      name: "Golden Aiguillette",
+      description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
+      price: 39.99,
+      image: "/aiguillette.jpg",
+      collection: "aiguillette",
+    },   
+    {
+      id: "54",
+      name: "Silver Maple Leaf Braid",
+      description:  "Make a statement with our stylish and versatile Badges. Whether you want to showcase your affiliation, promote your brand, or simply add a touch of personal flair, this badge is the perfect accessory.",
+      price: 39.99,
+      image: "/Canadianbraid.jpg",
+      collection: "braiding",
+    },
+
   ];
 export const getAllProducts = () => {
     return products;
